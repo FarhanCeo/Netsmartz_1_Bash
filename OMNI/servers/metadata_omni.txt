@@ -1,0 +1,62 @@
+FUNCTIONS LIST:----
+analyzefile()
+
+
+OPTIONS LIST:----
+0
+--help (working)(need update)
+-he (working) (updated)
+--analyze (working)(need update)(updated)
+-s 
+-sf
+-sc
+-d
+
+
+ 
+folders inside Central log server:---------
+serveri
+	- memory_file_count.txt
+	- memory_error_count.txt
+	- serveri.j.txt
+	
+error_count_folder
+	- serveri.txt
+
+files inside Central log server:---------
+memory_servers_count.txt
+help.txt
+omni.sh
+
+
+
+
+-------------------------------------------------
+Base structure:
+.
+├── Central_log_server
+│   ├── help.txt
+│   └── omni.sh
+├── gen_send_logs.sh
+├── metadata_omni.txt
+└── servers
+
+2 directories, 4 files
+-------------------------------------------------
+After creating first server:
+.
+├── Central_log_server
+│   ├── help.txt
+│   ├── omni.sh
+│   └── server1
+│       ├── memory_error_count.txt
+│       ├── memory_file_count.txt
+│       └── server1.1.txt
+├── gen_send_logs.sh
+├── metadata_omni.txt
+└── servers
+    └── server1.1.txt
+
+3 directories, 8 files
+-------------------------------------------------
+
