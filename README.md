@@ -11,14 +11,8 @@ CMD: bash omnitool.sh
 DESCRIPTION: TO SEE THE COMMON OPTIONS TO USE
 
 YOUR BASE DIRECTORY STRUCTURE IS:
-.
-├── Central_log_server
-│   ├── help.txt
-│   └── omni.sh
-├── gen_send_logs.sh
-└── servers
+![omnisirectstruc](https://github.com/FarhanCeo/Netsmartz_1_Bash/assets/80202023/5e719c5c-6fc2-4c99-9177-7fbba62bcf65)
 
-2 directories, 3 files
 
 ---------------------------------------------------------------------------------------
 
@@ -27,6 +21,7 @@ ASKING FOR HELP ----------------->
 CMD: bash omnitool.sh --help
 
 DESCRIPTION: WHEN YOU NEED HELP YOU CAN USE IT. AS YOU ARE DOING.
+
 
 ---------------------------------------------------------------------------------------
 
