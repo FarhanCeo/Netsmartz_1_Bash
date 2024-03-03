@@ -77,7 +77,7 @@ function analyzefile(){
 if [ $# == 0 ]; then
 	echo "Please enter an argument to do a task"
 	echo "or you can use --help."
-	echo "example: omnitool.sh --help"
+	echo "example: omni.sh --help"
 	
 	echo "SOME BASIC COMMAND OPTIONS TO USE:"
 	echo "--help (to take help)"
