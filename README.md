@@ -2,32 +2,36 @@
 ######################## THIS IS THE HELP FILE FOR YOU ###############################
 
 TOOL NAME: OMNI.SH
+
 DESCRIPTION: THIS IS A LOG ANALYSIS TOOL WHICH PROVIDE USERA REAL TIME ANALYSIS OF LOGS. YOU CAN EASILY SEE THE ERROR LOGS AND FIND WHICH SERVER HAS MORE LOGS AT WHAT TIME. IT HAS A LIVE DASHBOARD TO ENHANCE THE VUEW OF USER REGARDING ERRORS IN LOGS.
 
 ######################## HOW TO USE IT ###############################################
 
 START--->
-CMD: bash omnitool.sh
+
+CMD: bash omni.sh
+
 DESCRIPTION: TO SEE THE COMMON OPTIONS TO USE
 
 YOUR BASE DIRECTORY STRUCTURE IS:
-![omnisirectstruc](https://github.com/FarhanCeo/Netsmartz_1_Bash/assets/80202023/5e719c5c-6fc2-4c99-9177-7fbba62bcf65)
 
+![image](https://github.com/FarhanCeo/Netsmartz_1_Bash/assets/80202023/7c86af9b-2228-4ecb-8ae5-51b03b4788c3)
+
+2 directories, 3 files
 
 ---------------------------------------------------------------------------------------
 
 ASKING FOR HELP ----------------->
 
-CMD: bash omnitool.sh --help
+CMD: bash omni.sh --help
 
 DESCRIPTION: WHEN YOU NEED HELP YOU CAN USE IT. AS YOU ARE DOING.
-
 
 ---------------------------------------------------------------------------------------
 
 TO VIEW LIVE DASHBOARD -------------->
 
-CMD: bash omnitool.sh -d
+CMD: bash omni.sh -d
 
 DESCRIPTION: THIS WILL SHOW THE LIVE DASHBOARD SHOWING THE VARIOUS INFORMATION REGARDING LOGS AND ERRORS OF SERVERS.
 
@@ -35,17 +39,17 @@ DESCRIPTION: THIS WILL SHOW THE LIVE DASHBOARD SHOWING THE VARIOUS INFORMATION R
 
 TO VIEW THE LOGS OF ANY SPECIFIC SERVER ------------------->
 
-CMD: bash omnitool.sh -s <server_number>
+CMD: bash omni.sh -s <server_number>
 
 DESCRIPTION: THIS WILL PRINT THE NUMBER OF LOG FILES PRESENT IN THE SERVER
 
-EXAMPLE: bash omnitool.sh -s 2  (IT WILL SHOW THE COUNT OF LOG FILES OF SERVER 2)
+EXAMPLE: bash omni.sh -s 2  (IT WILL SHOW THE COUNT OF LOG FILES OF SERVER 2)
 
 ---------------------------------------------------------------------------------------
 
 TO VIEW THE SERVER WITH HIGHEST ERROR COUNT ------------------->
 
-CMD: bash omnitool.sh -he
+CMD: bash omni.sh -he
 
 DESCRIPTION: THIS WILL PRINT THE INFORMATION ABOUT THE SERVER WHICH HAS HIGHEST ERROR COUNT IN ALL SERVER.
 
@@ -53,17 +57,17 @@ DESCRIPTION: THIS WILL PRINT THE INFORMATION ABOUT THE SERVER WHICH HAS HIGHEST 
 
 TO SEE SPECIFIC FILE OF LOGS OF A SPECIFIC SERVER ------------------->
 
-CMD: bash omnitool.sh -sf <server_number> <file_number>
+CMD: bash omni.sh -sf <server_number> <file_number>
 
 DESCRIPTION: THIS WILL SHOW THE LOG FILE OF A SERVER YOU SPECIFIED
 
-EXAMPLE: bash omnitool.sh -sf 3 (THIS WILL SHOW YOU FILE 3 LOGS OF SERVER 3)
+EXAMPLE: bash omni.sh -sf 3 (THIS WILL SHOW YOU FILE 3 LOGS OF SERVER 3)
 
 ----------------------------------------------------------------------------------------
 
 TO CONTINUOUSLY CHECK FOR ERRORS AND ALERT WHEN REACHING MAXIMUM ERROR COUNT
 
-CMD: bash omnitool.sh --analyze
+CMD: bash omni.sh --analyze
 
 DESCRIPTION: THIS WILL CONTINUOUSLY ANALYSE THE LOGS OF EACH SERVER AND TRACK COUNT OF ERRORS OF EACH SERVERS AND RETURN ALERT MESSAGE.
 
@@ -71,7 +75,7 @@ DESCRIPTION: THIS WILL CONTINUOUSLY ANALYSE THE LOGS OF EACH SERVER AND TRACK CO
 
 TO SEE THE NUMBER OF SERVERS PRESENT
 
-CMD: bash omnitool.sh -sc
+CMD: bash omni.sh -sc
 
 DESCRIPTION: THIS COMMAND WILL PRINT THE NUMBER OF SERVERS PRESENT.
 _________________________________________________________________________________________
